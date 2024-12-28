@@ -128,59 +128,6 @@
                 </div>
             </form>
         </div>
-
-        <!-- Update Law Form -->
-        <div class="mb-8">
-            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Update Law</h2>
-            <form id="updateLawForm" class="space-y-4">
-                <div class="form-container">
-                    <label for="updateId" class="block text-sm font-medium text-gray-700">Law ID</label>
-                    <input type="text" id="updateId" name="updateId" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-                <div class="form-container">
-                    <label for="updateCategory" class="block text-sm font-medium text-gray-700">Category</label>
-                    <input type="text" id="updateCategory" name="updateCategory" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-                <div class="form-container">
-                    <label for="updateName" class="block text-sm font-medium text-gray-700">Name</label>
-                    <input type="text" id="updateName" name="updateName" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-                <div class="form-container">
-                    <label for="updateDescription" class="block text-sm font-medium text-gray-700">Description</label>
-                    <textarea id="updateDescription" name="updateDescription" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"></textarea>
-                </div>
-                <div class="form-container">
-                    <label for="updateUrl" class="block text-sm font-medium text-gray-700">URL</label>
-                    <input type="text" id="updateUrl" name="updateUrl" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-                <div class="form-container">
-                    <label for="updateDetailedInfo" class="block text-sm font-medium text-gray-700">Detailed Info</label>
-                    <textarea id="updateDetailedInfo" name="updateDetailedInfo" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"></textarea>
-                </div>
-                <div class="form-container">
-                    <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                        Update Law
-                    </button>
-                </div>
-            </form>
-        </div>
-
-        <!-- Delete Law Form -->
-        <div class="mb-8">
-            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Delete Law</h2>
-            <form id="deleteLawForm" class="space-y-4">
-                <div class="form-container">
-                    <label for="deleteId" class="block text-sm font-medium text-gray-700">Law ID</label>
-                    <input type="text" id="deleteId" name="deleteId" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-                <div class="form-container">
-                    <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-                        Delete Law
-                    </button>
-                </div>
-            </form>
-        </div>
-
         <!-- Laws Grid -->
         <div id="lawsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Dynamically populated laws will go here -->
