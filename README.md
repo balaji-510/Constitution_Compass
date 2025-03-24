@@ -1,5 +1,5 @@
-Promoting Awareness on the Indian Constitution
-Project Overview
+
+#Project Overview
 ConstitutionXplore is a platform designed to educate users about the Indian Constitution, focusing on its framework, fundamental rights, and citizens' duties. The application provides detailed information and interactive features to help users better understand the Constitution and its relevance in modern-day India.
 
 The platform caters to user roles such as Admin, Educator, Citizen, and Legal Expert, each with specific functionalities. The platform aims to promote awareness and foster an interactive learning environment.
